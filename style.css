@@ -69,6 +69,9 @@ body {
 
 }
 .stats:hover {
+     background-color: hsl(3, 77%, 44%);
+}
+.stats:active {
     background-color: hsl(3, 77%, 44%);
 }
 .card {
