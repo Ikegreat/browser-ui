@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: hsl(217, 61%, 90%);
+    }
+.main-container {
+    
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+   
+}
+.ext-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(200, 60%, 99%);
+    padding: 10px;
+    border-radius: 7px;
+    /* gap: 100px; */
+   box-shadow: 2px 2px 5px grey;
+   margin-bottom: 50px;
+   
+   
+}
+.right-header {
+   display: flex;
+   align-items: center;
+   
+}
+#logo {
+    width:200px;
+}
+#moon-img {
+    background-color: hsl(0, 0%, 78%);
+    padding: 7px;
+    border-radius: 15px;
+    width: 60px;
+}
+.ext-list h2 {
+    color: hsl(226, 25%, 17%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.ext-state {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 22px;
+}
+.stats {
+    padding: 15px;
+    border-radius: 555px;
+    background-color: hsl(200, 60%, 99%);
+    color: hsl(226, 25%, 17%);
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+.stats:hover {
+    background-color: hsl(3, 77%, 44%);
+}
+.card {
+    background-color: hsl(200, 60%, 99%);
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 2px 2px 6px grey;
+    margin-bottom: 15px;
+}
+.box-section {
+    display: grid;
+    grid-template-columns: auto ;
+}
+#text-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-content: center;
+}
+.text1 {
+    text-align:left;
+}
+.text1 h2 {
+    color:hsl(226, 25%, 17%);
+    font-size: 24px;
+    
+}
+.text1 p {
+    color: hsl(227, 75%, 14%);
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.btn-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    button {
+        border: 1px solid hsl(225, 23%, 24%);
+        border-radius: 15px;
+        padding: 8px;
+        font-size: 18px;
+        color: hsl(226, 25%, 17%);
+    }
+    input {
+        accent-color: hsl(3, 77%, 44%);
+    }
+    
+   
+}
+@media (min-width:768px) {
+    .box-section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+       
+        
+    }
+    
+}
