@@ -12,11 +12,11 @@ body {
     }
 .main-container {
     
-    /* display: flex; */
+    display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-   
+
 
    
 }
@@ -87,7 +87,7 @@ body {
 }
 #text-area {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     align-content: center;
 }
@@ -125,13 +125,16 @@ body {
     
    
 }
+
 @media (min-width:768px) {
     .box-section {
-        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+@media (min-width:1024px) {
+    .box-section {
         grid-template-columns: auto auto auto;
         gap: 20px;
-       
-        
     }
-    
 }
